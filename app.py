@@ -1,9 +1,13 @@
 import streamlit as st
 import pickle
 import nltk
-from nltk.corpus import stopwords
 import string
+from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+
+# Download necessary NLTK resources
+nltk.download('punkt')
+nltk.download('stopwords'
 
 # Load model and vectorizer
 ps = PorterStemmer()
