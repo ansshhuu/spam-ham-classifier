@@ -24,6 +24,34 @@ sms-spam-classifier/
 ## 🛠 Installation (Run Locally)
 
 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/sms-spam-classifier.git
-cd sms-spam-classifier
+   ```bash
+   git clone https://github.com/<your-username>/sms-spam-classifier.git
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+3. Run the app
+   ```bash
+   streamlit run app.py
+
+🌐 Deployment
+
+This project is deployed on Streamlit Cloud.
+👉 
+
+🧠 Model Details
+
+Algorithm: Multinomial Naive Bayes
+
+Vectorization: TF-IDF (Term Frequency – Inverse Document Frequency)
+
+Dataset: SMS Spam Collection dataset (Kaggle / UCI)
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+
