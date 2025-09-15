@@ -65,7 +65,7 @@ The app processes the entered text message by performing the following steps:
 
 🌐 Deployment
 This project is deployed on Streamlit Cloud.
-👉
+👉https://email-spam-ham-classifier.streamlit.app/
 
 
 ## 📝 Troubleshooting
@@ -74,6 +74,7 @@ This project is deployed on Streamlit Cloud.
   ```python
   import nltk
   nltk.download('stopwords')
+  nltk.download('punkt_tab')
   nltk.download('punkt')
 Ensure that both model.pkl and vectorizer.pkl are correctly placed in the project directory.
 
