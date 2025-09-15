@@ -1,4 +1,7 @@
 streamlit
 nltk
 sklearn
+pandas
+numpy 
+scikit-learn
 
